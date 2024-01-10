@@ -1,9 +1,9 @@
 New Classrooms QA Assesment
-===================================
 Tools used:
 - Playwright
 - Javascript
 Tests run on: Chrome, Firefox, Safari & Edge
+<br>
 ===================================
 In order to run these tests do the following:
 1. Fork this repo
