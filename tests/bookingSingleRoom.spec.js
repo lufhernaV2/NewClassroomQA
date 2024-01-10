@@ -1,8 +1,10 @@
 // @ts-check
 const { test, expect } = require('@playwright/test');
+import HomePage from '../page-objects/homePage';
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test('booking single room', async ({ page }) => {
+  const homePage = new HomePage(page);
+  await page.goto('https://automationintesting.online/');
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
