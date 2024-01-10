@@ -35,9 +35,17 @@
 
 <h3>Bugs found:</h3>
 <ul>
-    <li>User Story 1 is inconsistent. Sometimes I see two available rooms and sometimes I see one
-    image of the bug is below.
+    <li>User Story 1 is inconsistent. Sometimes I see two available rooms and sometimes I see one.
+    Image of the bug is below.
     </li>
     <img src='images/OneAvailableRoom.png' />
+    <br>
+    <li>User Story 3 behavior do not match with the requirements. The calendar does not default to the next month. It
+    opens to the current date and month.
+    </li>
+    <li>User Stories 4, 6, 7, and 8 requirements can't be met due to the fact that the calendar isn't allowing bookings. 
+    Dates can't be picked. Checked this with several different browsers. 
+    </li>
     <li>
+    </li>
 </ul>
