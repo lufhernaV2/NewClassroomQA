@@ -5,6 +5,7 @@
     <li>Javascript</li>
 </ul>
 <p>Tests run on: Chrome, Firefox, Safari & Edge</p>
+<p>Description of the automation is at the bottom</p>
 <br>
 ===================================
 <br>
@@ -25,4 +26,18 @@
 <br>
 <image src='images/UserStory1Image.png'>
 <br>
-<h3>User Story 2: As a customer, I can use the website on the desktop browser of my choosing</h3>
+<h3>Automation Scripts:</h3>
+<h4>1. What was tested?</h4>
+<p>The 'Booking single room' E2E test script covers the stories below:</p>
+<ul>
+    <li>User Story 2: As a customer, I can use the website on the desktop browser of my choosing</li>
+    <li>User Story 3: As a customer, when I select the "Book this Room" button/CTA, I want the system to load the “availability calendar” and “contact information form</li>
+    <li>User Story 4: As a customer, I want to select the dates of my intended stay in the calendar</li>
+    <li>User Story 5: Contact Info Form Functionality</li>
+    <li>User Story 6: Selecting the 'Book' CTA produces a 'booking successful' pop-up</li>
+</ul>
+<p>The 'Multiple bookings' E2E test script covers the story below:</p>
+<ul>
+    <li>User Story 7: As a customer, I would like to make more than one booking</li>
+    <li>User Story 8: As a customer, I can only make a booking with dates that are available</li>
+</ul>
