@@ -1,21 +1,14 @@
-// @ts-check
-const { test, expect } = require('@playwright/test');
+const { test } = require('@playwright/test');
 import HomePage from '../page-objects/homePage';
 
 test('booking single room', async ({ page }) => {
   const homePage = new HomePage(page);
-  await page.goto('https://automationintesting.online/');
-
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+  await homePage.goToUrl('https://automationintesting.online/');
+  await homePage.bookSingleRoomE2EFlow();
 });
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+test('failed booking', async ({ page }) => {
+  const homePage = new HomePage(page);
+  await homePage.goToUrl('https://automationintesting.online/');
+  await homePage.failedBooking();
 });

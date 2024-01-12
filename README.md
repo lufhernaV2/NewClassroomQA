@@ -28,24 +28,20 @@
     <li>User Story 6: Selecting the 'Book' CTA produces a 'booking successful' pop-up</li>
 </ul>
 <p>The 'Multiple bookings and date confirmations' E2E test script covers the story below:</p>
+<p>The 'Failed booking' E2E test script covers:</p>
 <ul>
-    <li>User Story 7: As a customer, I would like to make more than one booking</li>
+    <li>Tests error handling for the contact form</li>
     <li>User Story 8: As a customer, I can only make a booking with dates that are available</li>
 </ul>
 
 <h3>Bugs found:</h3>
 <ul>
-    <li>User Story 1 is inconsistent. Sometimes I see two available rooms and sometimes I see one.
+    <li>User Story 1 is inconsistent. Sometimes I see two available rooms and sometimes I see one. This is a problem since I can't create
+    multiple bookings due to not being able to select multiple rooms.
     Image of the bug is below.
     </li>
     <img src='images/OneAvailableRoom.png' />
     <br>
-    <li>User Story 3 behavior do not match with the requirements. The calendar does not default to the next month. It
-    opens to the current date and month.
-    </li>
-    <li>User Stories 4, 6, 7, and 8 requirements can't be met due to the fact that the calendar isn't allowing bookings. 
-    Dates can't be picked. Checked this with several different browsers. 
-    </li>
-    <li>
+    <li>User Story 3 behavior do not match with the requirements. The calendar does not default to the next month. It opens to the current date and month.
     </li>
 </ul>
