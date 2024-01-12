@@ -14,6 +14,7 @@
     <li>Fork this repo.</li>
     <li>Open the folder -> In a terminal type 'npm install' (all the dependencies should be now installed).</li>
     <li>Type 'npx playwright test' in the terminal to run all the test suites.</li>
+    <li>After the suite runs type 'Ctrl + c' to close it out.</li>
 </ol>
 ====================================
 <h3>Automation Scripts:</h3>
@@ -27,7 +28,6 @@
     <li>User Story 5: Contact Info Form Functionality</li>
     <li>User Story 6: Selecting the 'Book' CTA produces a 'booking successful' pop-up</li>
 </ul>
-<p>The 'Multiple bookings and date confirmations' E2E test script covers the story below:</p>
 <p>The 'Failed booking' E2E test script covers:</p>
 <ul>
     <li>Tests error handling for the contact form</li>
